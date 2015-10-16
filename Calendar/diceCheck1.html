@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>丟骰子遊戲</title>
+	<script type="text/javascript" src="js\dice.js"></script>
+	<noscript>該瀏覽器並不支援Script程式!</noscript>
+	<style>
+	.Calendar{float:left;}
+		
+	</style>
+	}
+</head>
+<body>
+	<button onclick="showCalender()">Show Calender</button>
+	<button onclick="pDay()">前一天</button>
+	<button onclick="nDay()">後一天</button>
+
+	<button onclick="alert('Hello world!')">Click Me2!</button>
+	<button onclick="confirmBox()">confirm</button>
+	<button onclick="promptBox()">Prompt</button>
+	
+	<div id="show"></div>
+	
+	
+	<!-- <div id="lastDay" onclick="pDay()"> -->
+	<a class="Calender" href="" onclick="pDay()">前一天</a>
+	<a class="Calender" href="" onclick="nDay()">後一天</a>
+	<div class="Calendar" id="showCalender"></div>
+</body>
+</html>
